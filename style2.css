@@ -1,0 +1,189 @@
+/* ----------------------------------CSS CUANDO DE ACHICA  --------------------------------------*/
+/* ----------------------------------CSS CUANDO DE ACHICA  --------------------------------------*/
+@media (max-width: 320px) 
+{
+    .band {
+      grid-template-columns: 1fr 1fr;
+    }
+    
+ 
+    header .logo
+{   
+    font-weight: 700;
+    color: #fff;   
+    font-size: 3em; 
+}
+header{
+   padding: 25px 60px;
+    display: inline;
+}
+.banner
+{
+    position: relative;
+    height: 600px;
+    width: 430px;
+}
+header.sticky
+{
+    padding: 25px 60px;
+    background: #fff;
+}
+section .title-banner{
+    color: rgb(209, 180, 180);
+    padding:50% 60px;
+    font-size: 2.5em;
+}
+.fondo
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+    url(https://i.ibb.co/x19b1sm/MID-RED.png);
+    height: 600px;
+    width: 430px;
+    background-position: right;
+    background-size: cover;  
+    overflow: hidden;
+    
+}
+.nav-bar
+{
+    padding: 35px 35px; 
+}
+.banner-title
+{
+    margin: 30px 30px;
+    color: #fff;
+}
+.service
+{
+ width: 430px;
+  padding: 20px 0;
+}
+
+.quienes
+{
+    width: 430px;   
+}
+.footer
+{
+    width: 430px;   
+}
+.tilesWrap
+{
+    width: 430px;     
+}
+}
+/* ----------------------------------CSS CUANDO DE ACHICA  --------------------------------------*/
+/* ----------------------------------CSS CUANDO DE ACHICA  --------------------------------------*/
+
+
+@media (min-width: 500px) 
+{
+    .band {
+        grid-template-columns: 1fr 1fr;
+      }
+}
+    
+
+/*()()()()()()()()()()()()()()()()()()()CUANDO SE AGRANDA ()()()()()()()()()()()()()()()()()()()()()()()()()()()*/
+  @media (min-width: 60em) 
+{
+    .band {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+
+    .header{
+        padding: 40px 100px;
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.6s;
+        z-index: 100000;
+    }
+ 
+    
+
+
+
+}
+
+
+
+
+
+@media (max-width: 400px) 
+{
+    .band {
+      grid-template-columns: 1fr 1fr;
+    }
+    
+ 
+    header .logo
+{   
+    font-weight: 700;
+    color: #fff;   
+    font-size: 3em; 
+}
+header{
+   padding: 25px 60px;
+    display: inline;
+}
+.banner
+{
+    position: relative;
+    height: 600px;
+    width: 430px;
+}
+header.sticky
+{
+    padding: 25px 60px;
+    background: #fff;
+}
+section .title-banner{
+    color: rgb(209, 180, 180);
+    padding:50% 60px;
+    font-size: 2.5em;
+}
+.fondo
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+    url(https://i.ibb.co/x19b1sm/MID-RED.png);
+    height: 600px;
+    width: 430px;
+    background-position: right;
+    background-size: cover;  
+    overflow: hidden;
+    
+}
+.nav-bar
+{
+    padding: 35px 35px; 
+}
+.banner-title
+{
+    margin: 30px 30px;
+    color: #fff;
+}
+.service
+{
+ width: 430px;
+  padding: 20px 0;
+}
+
+.quienes
+{
+    width: 430px;   
+}
+.footer
+{
+    width: 430px;   
+}
+.tilesWrap
+{
+    width: 430px;     
+}
+}
